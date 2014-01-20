@@ -1,0 +1,110 @@
+.menu {
+  text-align: center;
+  margin: auto;
+  font-family: 'Terminal Dosis', Arial, sans-serif;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.menu span {
+  width: 80px;
+  border: 1px solid #000;
+  padding: 5px;
+  margin: 5px;
+}
+.menu span.active {
+  cursor: pointer;
+}
+#count {
+  width: 300px;
+  margin: auto;
+  text-align:center;
+}
+
+#gamePanel {
+  margin: auto;
+  clear: none;
+}
+.beginner {
+  width: 180px;
+  height: 180px;
+}
+.medium {
+  width: 320px;
+  height: 320px;
+}
+.advance {
+  width: 600px;
+  height: 320px;
+}
+
+.panel {
+  border: 2px inset #888;
+  background-color: #eee;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+  float: left;
+
+  text-decoration: none;
+  text-shadow: rgba(255,255,255,.5) 0 2px 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+
+  -webkit-box-shadow: inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */
+                      hsl(0, 0%, 60%) 0 .1em 3px, hsl(0, 0%, 45%) 0 .3em 1px, /* color border */
+                      rgba(0,0,0,0.2) 0 .5em 5px; /* drop shadow */
+
+/* Metal */
+  background-image: -webkit-repeating-linear-gradient(left, hsla(0,0%,100%,0) 0%, hsla(0,0%,100%,0)   6%, hsla(0,0%,100%, .1) 7.5%),
+  -webkit-repeating-linear-gradient(left, hsla(0,0%,  0%,0) 0%, hsla(0,0%,  0%,0)   4%, hsla(0,0%,  0%,.03) 4.5%),
+  -webkit-repeating-linear-gradient(left, hsla(0,0%,100%,0) 0%, hsla(0,0%,100%,0) 1.2%, hsla(0,0%,100%,.15) 2.2%),
+
+  linear-gradient(180deg, hsl(0,0%,78%)  0%,
+  hsl(0,0%,90%) 47%,
+  hsl(0,0%,78%) 53%,
+  hsl(0,0%,70%)100%);
+}
+
+.panel:hover {
+  cursor: pointer;
+  background-color:   hsl(0, 0%, 83%);
+}
+
+.safe {
+  background-color: #eee;
+  border: 2px inset #eee;
+  cursor: default;
+  -webkit-transition: all 50ms linear;
+  transition: all 50ms linear;
+}
+
+.bom {
+  line-height: 18px;
+  color:        hsl(340, 100%, 30%) !important;
+  border:   2px inset hsl(340, 100%, 75%);
+  background-color:   hsl(340, 100%, 75%);
+  -webkit-box-shadow: inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */
+                      hsl(340, 70%, 50%) 0 .1em 3px, hsl(340, 80%, 40%) 0 .3em 1px, /* color border */
+                      rgba(0,0,0,0.2) 0 .5em 5px; /* drop shadow */
+  font-size: 16px;
+  color: #666;
+  font-family: 'WebSymbolsRegular', cursive;
+  text-shadow: 0px 0px 1px #333;
+}
+
+
+.metal.linear {
+  width: 100px;
+  font-size: 4em;
+  height: 80px;
+  border-radius: .5em;
+  background-image: -webkit-repeating-linear-gradient(left, hsla(0,0%,100%,0) 0%, hsla(0,0%,100%,0)   6%, hsla(0,0%,100%, .1) 7.5%),
+  -webkit-repeating-linear-gradient(left, hsla(0,0%,  0%,0) 0%, hsla(0,0%,  0%,0)   4%, hsla(0,0%,  0%,.03) 4.5%),
+  -webkit-repeating-linear-gradient(left, hsla(0,0%,100%,0) 0%, hsla(0,0%,100%,0) 1.2%, hsla(0,0%,100%,.15) 2.2%),
+
+  linear-gradient(180deg, hsl(0,0%,78%)  0%,
+  hsl(0,0%,90%) 47%, 
+  hsl(0,0%,78%) 53%,
+  hsl(0,0%,70%)100%);
+}
